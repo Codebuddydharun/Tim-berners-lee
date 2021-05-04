@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.Welcome{
+    font-weight: 300px;
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+}
+
+.div2{
+    text-align: center;
+    vertical-align: center;
+}
+
+.Bio{
+    font-weight: 300px;
+    height:100%;
+    width: 100%;
+    background-color: orange;
+}
+
+.menu{
+    list-style: none;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+}
+
+.list{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.list:hover{
+    background-color: blue
+}
+
+#img1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#span1{
+    font-family: "Itim"
+}
