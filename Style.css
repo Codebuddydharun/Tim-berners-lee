@@ -17,7 +17,7 @@ body{
 
 .div2{
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .Bio{
@@ -29,23 +29,25 @@ body{
 
 .menu{
     list-style: none;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     cursor: pointer;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    margin-top: 0px;
+    background-color: white;
+    width: 100%;
 }
 
 .list{
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right:10px;
-    padding-bottom: 5px;
-    float: left;
+    padding-left: 30px;
+    padding-right:25px;
+    font-size: 20px;
+    display: inline;
 }
 
 .list:hover{
-    background-color: blue
+    text-decoration: underline;
+    font-size: 25px;
 }
 
 #img1{
@@ -54,4 +56,18 @@ body{
 }
 #span1{
     font-family: "Itim"
+}
+html{
+    scroll-behavior: smooth;
+}
+.div1{
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+}
+#contact{
+    background-color: firebrick;
+}
+.divcontact{
+   background-color:  white
 }
